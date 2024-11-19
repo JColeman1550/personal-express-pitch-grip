@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pitch Grip Log</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Grip Log</h1>
+  <span>A space for pitchers to document, share, and refine their pitching grips and techniques.</span>
+
+  <!-- Form to add a new note -->
+  <form action="/notes" method="POST">
+    <label for="pitch-name">Select Pitch:</label>
+    <select name="title" id="pitch-name" required>
+      <option value="">Select a Pitch</option>
+      <option value="Fastball">Fastball</option>
+      <option value="Curveball">Curveball</option>
+      <option value="Slider">Slider</option>
+      <option value="Changeup">Changeup</option>
+      <option value="Sinker">Sinker</option>
+      <option value="Knuckleball">Knuckleball</option>
+      <option value="Cutter">Cutter</option>
+      <option value="Splitter">Splitter</option>
+    </select>
+
+    <label for="handedness">Select Handedness:</label>
+    <select name="handedness" id="handedness" required>
+      <option value="">Select Handedness</option>
+      <option value="LHP">Left</option>
+      <option value="RHP">Right</option>
+    </select>
+
+    <label for="arm-slot">Select Arm Slot:</label>
+    <select name="armSlot" id="arm-slot" required>
+      <option value="">-- Select Arm Slot --</option>
+      <option value="Overhand">Overhand</option>
+      <option value="Three-Quarters">Three-Quarters</option>
+      <option value="Sidearm">Sidearm</option>
+      <option value="Submarine">Submarine</option>
+    </select>
+
+    <textarea name="description" placeholder="Write your notes here..." required></textarea>
+    <button type="submit">Add Note</button>
+  </form>
+
+  <!-- Display all notes -->
+  <div id="notes">
+    <% notes.forEach(note => { %>
+      <div class="note">
+        <h3><%= note.title %></h3>
+        <p><%= note.description %></p>
+        <button class="editButton" data-id="<%= note._id %>">Edit</button>
+        <button class="deleteButton" data-id="<%= note._id %>">Delete</button>
+      </div>
+    <% }) %>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>

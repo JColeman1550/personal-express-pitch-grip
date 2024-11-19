@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: navy;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+span {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#notes {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.note {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button.editButton, button.deleteButton {
+  background-color: navy;
+  margin-right: 10px;
+  width: 10%;
+}
+
+button.deleteButton {
+  background-color: red;
+  width: 10%;
+}
+
+button.editButton:hover {
+  background-color: navy;
+  width: 10%;
+}
+
+button.deleteButton:hover {
+  background-color: red;
+  width: 10%;
+}

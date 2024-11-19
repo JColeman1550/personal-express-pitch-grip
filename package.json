@@ -1,0 +1,31 @@
+{
+  "name": "pitch-grips-repository",
+  "version": "1.0.0",
+  "description": "A platform to explore and share different baseball pitch grips and techniques.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.14.2",
+    "bson": ">=1.0.5",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.21.1",
+    "mongodb": "^3.7.4",
+    "mongoose": "^8.8.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "minimist": ">=1.2.2"
+  },
+  "keywords": [
+    "pitch grips",
+    "baseball",
+    "pitching techniques",
+    "sports analytics"
+  ]
+}
