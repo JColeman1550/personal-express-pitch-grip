@@ -34,7 +34,7 @@ Check out the live application here: [Pitch Grip Log](https://personal-express-p
 
 ## Image Placeholder
 
-<img src=""
+<img src="https://github.com/JColeman1550/personal-express-pitch-grip/blob/master/Screenshot%202024-11-24%20224916.png?raw=true">
 
 ## Technologies Used
 
