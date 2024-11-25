@@ -8,6 +8,10 @@
 - **View and Manage Grips**: Review logged grips and manage them with options to edit or delete entries.
 - **Organized Options**: Dropdown menus for pitch types, handedness, and arm slots ensure consistency and ease of use.
 
+## Live Application
+
+Check out the live application here: [Pitch Grip Log](https://personal-express-pitch-grip.onrender.com)
+
 ## Future Features
 
 - **Media Attachments**:  
@@ -27,6 +31,10 @@
 
 3. **Explore Enhancements**  
    Stay tuned for updates, including the ability to upload images and videos for a richer pitching journal.
+
+## Image Placeholder
+
+<img src=""
 
 ## Technologies Used
 
