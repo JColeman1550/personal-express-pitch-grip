@@ -2,7 +2,7 @@
   "name": "pitch-grips-repository",
   "version": "1.0.0",
   "description": "A platform to explore and share different baseball pitch grips and techniques.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
